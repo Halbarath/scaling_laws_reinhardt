@@ -32,18 +32,18 @@ def ZofQRbyQRDstar(QRbyQRDstar,parameters):
 def calcMlrgofMtarggammaVi(Mtarg,gamma,Vi,parameters):
     QRbyQRDstar = calcQRbyQRDstar(Mtarg,gamma,Vi,parameters)
     if (QRbyQRDstar < parameters['b']):
-        beta = 0.5 * np.cos(QRbyQRDstar * parameters['a']) + 0.5;
+        beta = 0.5 * np.cos(QRbyQRDstar * np.pi / 2.0) + 0.5;
     else:
-        beta = (0.5 * np.cos(parameters['b'] * parameters['a']) + 0.5) / (parameters['b'] ** parameters['c']) * QRbyQRDstar ** parameters['c']
+        beta = (0.5 * np.cos(parameters['b'] * np.pi / 2.0) + 0.5) / (parameters['b'] ** parameters['c']) * QRbyQRDstar ** parameters['c']
     Mlrg = ((1+gamma)*beta)* Mtarg
     return Mlrg
 
 def calcMtargofMlrggammaVi(Mtarg,Mlrg,gamma,Vi,parameters):
     QRbyQRDstar = calcQRbyQRDstar(Mtarg,gamma,Vi,parameters)
     if (QRbyQRDstar < parameters['b']):
-        beta = 0.5 * np.cos(QRbyQRDstar * parameters['a']) + 0.5;
+        beta = 0.5 * np.cos(QRbyQRDstar * np.pi / 2.0) + 0.5;
     else:
-        beta = (0.5 * np.cos(parameters['b'] * parameters['a']) + 0.5) / (parameters['b'] ** parameters['c']) * QRbyQRDstar ** parameters['c']
+        beta = (0.5 * np.cos(parameters['b'] * np.pi / 2.0) + 0.5) / (parameters['b'] ** parameters['c']) * QRbyQRDstar ** parameters['c']
     Mtarg = Mlrg / ((1 + gamma) * beta)
     return Mtarg
 
@@ -65,9 +65,8 @@ def initParameters():
     # Parameters
     parameters = {}
     # Parameters for Mtarg(Mlrg,gamma,Vi)
-    parameters['a'] = 1.5807
-    parameters['b'] = 1.2549
-    parameters['c'] = -7.9983
+    parameters['b'] = 1.2391
+    parameters['c'] = -7.6808
     # Parameters for QRD*(Mtarg,gamma,Vi)
     parameters['rho0'] = 5.972e-12
     parameters['qg'] = 1.3300187e-05
