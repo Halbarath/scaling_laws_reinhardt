@@ -65,18 +65,18 @@ def initParameters():
     # Parameters
     parameters = {}
     # Parameters for Mtarg(Mlrg,gamma,Vi)
-    parameters['b'] = 1.2391
-    parameters['c'] = -7.6808
+    parameters['b'] = 1.2645
+    parameters['c'] = -8.1214
     # Parameters for QRD*(Mtarg,gamma,Vi)
     parameters['rho0'] = 5.972e-12
-    parameters['qg'] = 1.3300187e-05
-    parameters['mu'] = 6.1636921e-01
+    parameters['qg'] = 1.3299e-05 # this is in our unit system, paper has it in cgs
+    parameters['mu'] = 0.6164
     # Parameters for Z(QR/QRD*)
     parameters['ZFei'] = 0.3
-    parameters['aFe'] = 0.2095
-    parameters['bFe'] = 2.1245
-    parameters['qsc'] = 1.2549
-    parameters['bFEsc'] = 6.3926
+    parameters['aFe'] = 0.2099
+    parameters['bFe'] = 2.1516
+    parameters['qsc'] = 1.2645
+    parameters['bFEsc'] = 6.4890
     return parameters
 
 
