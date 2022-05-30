@@ -1,4 +1,4 @@
 # Scaling laws for giant impacts
 Authors: Thomas Meier and Christian Reinhardt
 
-This repository contains scripts that predict the post-impact mass and iron mass fraction for given impact conditions using the scaling laws from "Forming Iron-rich Planets with Giant Impacts" by Reinhardt et al. (2022).
+This repository contains scripts that predict the post-impact mass and iron mass fraction for given impact conditions using the scaling laws from ["Forming Iron-rich Planets with Giant Impacts"](https://arxiv.org/abs/2204.04925) by Reinhardt et al. (2022).
