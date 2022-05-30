@@ -25,4 +25,4 @@ to values that are applicable to the planetary system you are investigating.
 ## Citation
 If you use this code (or part of it) in a publication we suggest citing the following references:
 
-- Reinhardt C, Meier T, Stadel JG, Otegi J, Helled R. ["Forming Iron-rich Planets with Giant Impacts"](https://arxiv.org/abs/2204.04925)
+- Reinhardt C, Meier T, Stadel JG, Otegi J, Helled R. ["Forming Iron-rich Planets with Giant Impacts"](https://arxiv.org/abs/2204.04925). arXiv 2022.
