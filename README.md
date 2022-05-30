@@ -26,9 +26,3 @@ to values that are applicable to the planetary system you are investigating.
 If you use this code (or part of it) in a publication we suggest citing the following references:
 
 - ["Forming Iron-rich Planets with Giant Impacts"](https://arxiv.org/abs/2204.04925)
-- Zenodo link
-
-
-
-
-
